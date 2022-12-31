@@ -2,7 +2,6 @@ import { Grid, ListItem, ListItemButton, ListItemIcon, ListItemText } from '@mui
 import { TurnedInNot } from '@mui/icons-material';
 import { useDispatch } from 'react-redux';
 import { setActiveNote } from '../../store/journal/journalSlice';
-import { getNote } from '../helpers/getNote';
 
 
 export const SidebarItem = ({ tittle, body, id, date, imagenUrls=[] }) => {
